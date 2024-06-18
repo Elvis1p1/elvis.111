@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elvis portfolio website</title>
+    <link rel="stylesheet" href="style2.css" />
+    <script
+      src="https://kit.fontawesome.com/e45050139d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="elvis10.jpg" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">pertfolio</a></li>
+            <li><a href="#contact">contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>ui/ux Design</p>
+          <h1>
+            Hi, i'm <span>Elvis</span><br />okeke and this is my portfolio
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- -----------about----------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="elvis.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              Hi im okeke chiagoziem elvis, i'm in 100level, information
+              technology, this is my portfolio, hopefully this will make me a
+              better programmer in HTML,CSS,JAVA and so on, and i also hope this
+              portfolio finds you well.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Design web/App interface</li>
+                <li>
+                  <span>Web Development</span><br />Design web/App interface
+                </li>
+                <li>
+                  <span>App Development</span><br />Building Android/ios apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2024</span><br />Front end creation of websites and programs
+                </li>
+                <li><span>2024</span><br />Surface web designing.</li>
+                <li>
+                  <span>2023</span><br />Css, Java, Html and piton experienced
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023</span><br />UI/UX Design Training at an IT Institute
+                </li>
+                <li><span>2023</span><br />Home study and constant practice.</li>
+                <li><span>2024</span><br />Bells java and coding classes</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------services------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>You can contact me here to make more enquiries</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-alt"></i>
+            <h2>UI/UX Design</h2>
+            <p>You can contact me here to make more enquiries</p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Design</h2>
+            <p>You can contact me here to make more enquiries</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------portfolio--------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My portfolio</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="elvisapp.jpg" />
+            <div class="layer">
+              <h3>social Media App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it from App store.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="elvismusic.jpg" />
+            <div class="layer">
+              <h3>music App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it frpm App store.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="elvisshopping.jpg" />
+            <div class="layer">
+              <h3>online Shopping App</h3>
+              <p>
+                The app connects you to the talented people around the world.
+                Download it frpm App store.
+              </p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <!-- ----------contact------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>contact@elvis.com</p>
+            <p><i class="fa-sharp fa-solid fa-square-phone"></i>07041866175</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <a href="" class="btn btn2">Download Cv</a>
+          </div>
+      <!-- Projects Section -->
+      <section id="projects" class="projects">
+        <div class="project-grid">
+          <!-- Project Cards will be populated dynamically -->
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact">
+        <div class="contact-form">
+          <h2>Contact Me</h2>
+          <form id="contactForm" action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+          <div class="calculator">
+            <input type="text" id="result" readonly />
+            <div class="buttons">
+              <button class="clear">C</button>
+              <button class="operator">/</button>
+              <button class="operator">*</button>
+              <button class="operator">-</button>
+              <button class="number">7</button>
+              <button class="number">8</button>
+              <button class="number">9</button>
+              <button class="operator">+</button>
+              <button class="number">4</button>
+              <button class="number">5</button>
+              <button class="number">6</button>
+              <button class="equals">=</button>
+              <button class="number">1</button>
+              <button class="number">2</button>
+              <button class="number">3</button>
+              <button class="number">0</button>
+              <button class="decimal">.</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="copyright">
+        <p>
+          Copyright @ ELVIS. Made with <i class="fa-solid fa-heart"></i> by Easy
+          Tutorial
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
